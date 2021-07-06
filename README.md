@@ -293,3 +293,7 @@ int main() {
 ## Project status
 
 Pistache hasn't yet hit the 1.0 release. This means that the project is _unstable_ but not _unusable_. In fact, most of the code is production ready; you can use Pistache to develop a RESTful API without issues, but the HTTP client has a few issues in it that make it buggy.
+
+## Debian
+
+Use `gbp import-orig --pristine-tar --uscan  --upstream-vcs-tag` to update the Debian repo
